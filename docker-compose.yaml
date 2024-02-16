@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  gogo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: islansilva/go-full-cycle-rocks
+    container_name: go-full-cycle-rocks
